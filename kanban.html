@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Kanban.css">
+    <title>Kanban</title>
+</head>
+<body>
+    <main id="kanbanBoard">
+        <div id="inputContainer">
+            <input type="text" id="cardInput" placeholder="Enter card text">
+            <button onclick="addCard()">Add Card</button>
+        </div>
+        <section class="swimlane Math">
+            <div class="card">
+                Math
+            </div>
+        </section>
+        <section class="swimlane Science">
+            <div class="card">
+                Science
+            </div>
+        </section>
+        <section class="swimlane Thai">
+            <div class="card">
+                Thai
+            </div>
+        </section>
+        <section class="swimlane Eng">
+            <div class="card">
+                Eng
+            </div>
+        </section>
+    </main>
+    <script src="kanban.js"></script>
+</body>
+</html>
